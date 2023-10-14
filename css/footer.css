@@ -1,8 +1,11 @@
+.footer {
+  background-color: #2e2f42;
+}
+
 .footer-container {
   display: block;
   padding-top: 96px;
   padding-bottom: 96px;
-  background-color: #2e2f42;
 }
 
 .footer-logo-text {
@@ -194,8 +197,14 @@ input::placeholder {
 
   .footer-soc {
     margin-right: 80px;
+    margin-bottom: 0;
   }
   .footer-logo-text {
     padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  .footer-mail {
+    margin-bottom: 0;
   }
 }

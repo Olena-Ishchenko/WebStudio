@@ -11,6 +11,10 @@
   justify-content: center;
 }
 
+.team-title {
+  margin-bottom: 72px;
+}
+
 .foto-team {
   max-width: 264px;
   background: #fff;
@@ -69,6 +73,11 @@
 }
 
 @media screen and (min-width: 1158px) {
+  .team {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
   .foto-team {
     width: calc((100% - 24px * 3) / 4);
   }
