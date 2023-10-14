@@ -105,7 +105,6 @@
 .modal-checkbox {
   display: flex;
   flex-direction: row;
-  padding-top: 16px;
   margin-bottom: 24px;
   gap: 8px;
   align-items: center;

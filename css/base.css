@@ -16,7 +16,9 @@ ol {
   padding-left: 0;
 }
 
-h1 {
+h1,
+h2,
+h3 {
   margin: 0;
 }
 
@@ -80,5 +82,7 @@ p {
 @media (min-width: 1158px) {
   .container {
     max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }

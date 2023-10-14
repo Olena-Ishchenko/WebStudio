@@ -7,15 +7,13 @@
 .header-div {
   display: flex;
   justify-content: space-between;
-  padding-top: 17.5px;
-  padding-bottom: 17.5px;
 }
 
 .nav {
   display: flex;
   align-items: center;
 }
-.address {
+.contact {
   display: none;
 }
 .nav-header {
@@ -58,13 +56,9 @@
   .header-div {
     display: flex;
     justify-content: space-between;
-    padding-top: 16px;
-    padding-bottom: 16px;
+    align-items: center;
   }
 
-  .address {
-    display: flex;
-  }
   .nav-header {
     display: flex;
     gap: 40px;

@@ -1,6 +1,6 @@
 .footer-container {
   display: block;
-  padding-top: 97.5px;
+  padding-top: 96px;
   padding-bottom: 96px;
   background-color: #2e2f42;
 }
@@ -49,6 +49,10 @@
   text-align: center;
 }
 
+.footer-soc {
+  margin-bottom: 72px;
+}
+
 .footer-icon-list {
   display: flex;
   gap: 16px;
@@ -58,7 +62,6 @@
 .footer-icon-item {
   width: 40px;
   height: 40px;
-  margin-bottom: 72px;
 }
 .footer-icon-link {
   width: 100%;
@@ -148,7 +151,7 @@ input::placeholder {
     display: flex;
     align-items: baseline;
     flex-wrap: wrap;
-    padding-left: 108px;
+    width: 584px;
   }
 
   .footer-logo {
@@ -179,14 +182,20 @@ input::placeholder {
 
 @media screen and (min-width: 1158px) {
   .footer-container {
-    padding: 100px 15px;
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    /* padding: 100px 15px; */
   }
 
   .text-footer {
     margin-right: 120px;
   }
 
-  .footer-icon-list {
+  .footer-soc {
     margin-right: 80px;
+  }
+  .footer-logo-text {
+    padding-bottom: 0;
   }
 }
